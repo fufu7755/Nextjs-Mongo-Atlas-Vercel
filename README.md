@@ -4,9 +4,10 @@
 https://nextjs-demo.china-op.cn/
 
 ## 视频教程地址
+https://www.bilibili.com/video/BV1BtMSenEqm/
 
-https://www.bilibili.com/video/BV1bP411B7vx
-
+## 原始代码地址
+https://github.com/btc022003/next-full-stack-app
 
 ## 相关文章
 
