@@ -7,10 +7,6 @@ https://nextjs-demo.china-op.cn/
 
 https://www.bilibili.com/video/BV1bP411B7vx
 
-## 仓库地址
-
-后台启动next项目，可以关闭命令行端口也不影响
-
 
 ## 相关文章
 
