@@ -1,5 +1,5 @@
 'use client';
-import { Card, Form, Button, Input } from 'antd';
+import { Card, Form, Button, Input, message } from 'antd';
 import { useRouter } from 'next/navigation';
 
 function SignUpPage() {
@@ -15,8 +15,10 @@ function SignUpPage() {
               method: 'POST',
               body: JSON.stringify(v),
             }).then((res) => res.json());
-            console.log(res);
-            nav.push('/admin/dashboard');
+            if (res.success) {
+              nav.push('/admin/login');
+              message.success('注册成功');
+            }
           }}
         >
           <Form.Item name='userName' label='用户名'>

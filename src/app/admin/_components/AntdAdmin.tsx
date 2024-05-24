@@ -71,7 +71,7 @@ function AntdAdmin({ children }: any) {
                 height: 64,
               }}
             />
-            <Button type='primary' onClick={logout()}> 退出 </Button>
+            <Button type='primary' onClick={() => logout()}> 退出 </Button>
           </Header>
           <Content
             style={{
